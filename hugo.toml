@@ -1,4 +1,25 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://www.skiclub-waidberg.ch/'
+languageCode = 'de-ch'
+title = 'Skiclub Waidberg'
 theme = 'hugo-scroll'
+
+[params]
+favicon = "favicon.png"
+images = ["cover-image.jpg"]
+title_guard = false
+title = "Skiclub Waidberg"
+description = "Skiclub mit Clubhaus in der Mythenregion"
+language_menu = false
+show_current_lang = false
+copyright = "© SCW"
+hidedesignbyline = false
+invertSectionColors = false
+image_options = "webp q90 lanczos photo"
+combine_page_and_site_title = false
+
+[params.footer]
+showContactIcons = false
+showFooterLinks = false
+
+[params.meta]
+keywords = "skiclub, waidberg, rotenflue, mythenregion"
